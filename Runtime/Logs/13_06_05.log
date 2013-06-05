@@ -1,0 +1,158 @@
+[ 2013-06-05T20:12:42+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.003169s ]
+SQL: DELETE FROM `m_info` WHERE id = '40' [ RunTime:0.058048s ]
+
+[ 2013-06-05T20:13:51+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-05T20:13:51+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.002937s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-05T20:15:36+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInvite/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `m_person` [ RunTime:0.002520s ]
+SQL: DELETE FROM `m_person` WHERE id = '4' [ RunTime:0.038400s ]
+
+[ 2013-06-05T20:23:25+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-05T20:23:25+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.001976s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-05T20:23:33+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-05T20:23:33+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.001921s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-05T20:23:41+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-05T20:23:41+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.002060s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-05T20:24:05+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/addProductType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `m_product_type` [ RunTime:0.002266s ]
+SQL: INSERT INTO `m_product_type` (`type`) VALUES ('') [ RunTime:0.067108s ]
+
+[ 2013-06-05T20:24:08+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/addProductType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `m_product_type` [ RunTime:0.002173s ]
+SQL: INSERT INTO `m_product_type` (`type`) VALUES ('dsfdsf ') [ RunTime:0.014011s ]
+
+[ 2013-06-05T20:30:48+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-05T20:30:48+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.002172s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-05T20:31:37+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-05T20:31:37+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-05T20:33:09+08:00 ] 127.0.0.1 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `m_team_intr` [ RunTime:0.002029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_team_intr` LIMIT 1   [ RunTime:0.000397s ]
+SQL: UPDATE `m_team_intr` SET `content`='<p>这边也是自己发挥...sfdf</p>' WHERE id = 1 [ RunTime:0.034616s ]
+
+[ 2013-06-05T20:39:04+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `m_team_intr` [ RunTime:0.010595s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_team_intr` LIMIT 1   [ RunTime:0.000531s ]
+SQL: UPDATE `m_team_intr` SET `content`='<p>这边也是自己发挥...sfdfasd</p>' WHERE id = 1 [ RunTime:0.027088s ]
+

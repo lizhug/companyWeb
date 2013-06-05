@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>主页</title>
+	<load href="./Common/lib/bootstrap.css" />
+	<load href="./Common/lib/jquery-1.8.0.js" />
+	<load href="./Common/css/global.css" />
+	<load href="./Common/css/Public/header.css" />
+	<load href="./Common/css/Public/footer.css" />
+	<load href="./Common/css/Product/product.css" />
+</head>
+<body class="container" id="main">
+	<include file="./Tpl/Public/header.html" />
+	<div class="help-block">
+		<div id="siderbar" class="span3 pull-left">
+			<div id="list">
+				<span><img src="./Common/images/icon3.jpg" alt="icon" />作品列表</span>
+				<ul class="unstyled">
+					<li><img src="./Common/images/li.jpg" />作品展示</li>
+				</ul>
+				<ul id="next">
+					<volist name="productTypeList" id="vo">
+						<li><img src="./Common/images/arrow.jpg" alt="arrow" /><a href="__URL__/product/type/{$vo['type']}">{$vo['type']}</a><span style="display: none">{$vo['id']}</span></li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="content" class="span8 pull-left">
+			<span><img src="./Common/images/icon.jpg" alt="icon" />作品展示 <span>PRODUCT</span></span>
+			<div id="cshow">
+				<volist name="productList" id="vo">
+				<dl><a href="__APP__/Content/product/id/{$vo['id']}">
+					<dt><img src="./Common/Uploads/{$vo['coverPic']}" alt="{$vo['coverText']}"/></dt>
+					<dd>{$vo['coverText']}</dd></a>
+				</dl>
+				</volist>
+				<div class="help-block" style="text-align: center; margin-top: 20px;">{$page}</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<include file="./Tpl/Public/footer.html" />
+</body>
+</html>
+<script type="text/javascript">
+$(function(){
+	$("#list ul:nth-child(2n)").click(function(){
+		var obj = $("#next");
+		if (obj.css("display") == "none")
+			obj.css("display", "block");
+		else 
+			obj.css("display", "none");
+			
+	
+	
+	});
+});
+</script>

@@ -1,0 +1,35 @@
+#header {
+	margin-top: 5px;
+
+}
+#nav-top {
+	margin-bottom: 15px;
+}
+#nav-top ul li{
+	padding-left: 25px;
+	font-weight: bold;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+#nav {
+    width: 700px;
+    min-height: 23px;
+    padding: 12px 0px 4px 240px;
+    background-color: #0C5196;
+	border-bottom: 3px solid rgb(242, 118, 4);
+}
+
+#nav ul li a {
+	color: white;
+	text-shadow: none;
+	font-weight: bold;
+	border-right: .5px solid white;
+	padding: 0 15px;
+}
+#nav ul li a:hover {
+	text-decoration: underline;
+}
+#topSwf {
+	margin-top: -15px;
+}

@@ -1,0 +1,7 @@
+[ 2013-02-25T17:32:18+08:00 ] 127.0.0.1 /mould/index.php?s=/Admin/addInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.015448s ]
+SQL: INSERT INTO `m_info` (`title`,`content`,`date`) VALUES ('lkkdslf','<p style=\"text-align: center;\">dsfdsafdsf<span style=\"background-color: rgb(255, 0, 0);\"> fsdfaf v</span></p>','2013-02-25') [ RunTime:0.003011s ]
+

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>主页</title>
+	<load href="./Common/lib/bootstrap.css" />
+	<load href="./Common/css/global.css" />
+	<load href="./Common/css/Public/header.css" />
+	<load href="./Common/css/Public/footer.css" />
+	<load href="./Common/css/Intr/intr.css" />
+</head>
+<body class="container">
+	<include file="./Tpl/Public/header.html" />
+	<div class="help-block">
+		<div id="siderbar" class="span3 pull-left">
+			<div id="info">
+				<span><img src="./Common/images/icon3.jpg" alt="icon" />团队基本信息</span>
+				<div>
+					{$companyIntrSimple}
+				</div>
+			</div>
+			<div id="contact">
+				<span><img src="./Common/images/icon3.jpg" alt="icon" />联系方式</span>
+				<div>
+					{$contactSimple}
+				</div>
+			</div>
+		</div>
+
+		<div id="content" class="span8 pull-left">
+			<span><img src="./Common/images/icon.jpg" alt="icon" />团队简介  <span>TEAM  INTRODUCE</span></span>
+			<p>
+			{$companyIntr}
+			</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<include file="./Tpl/Public/footer.html" />
+</body>
+</html>

@@ -1,0 +1,76 @@
+[ 2013-02-21T18:21:03+08:00 ] ERR: [4] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 56 行.
+[ 2013-02-21T20:37:35+08:00 ] ERR: [4] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 56 行.
+[ 2013-02-21T20:37:35+08:00 ] ERR: [4] syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 56 行.
+[ 2013-02-21T20:41:20+08:00 ] ERR: (ThinkException) Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `m_device_type` (`type`) VALUES (null)
+[ 2013-02-21T20:41:20+08:00 ] 127.0.0.1 /mould/index.php?s=/Admin/addDeviceType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: [8] Undefined index: text D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 214 行.
+SQL: SHOW COLUMNS FROM `m_device_type` [ RunTime:0.003842s ]
+SQL: INSERT INTO `m_device_type` (`type`) VALUES (null) [ RunTime:0.000298s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-02-21T20:42:20+08:00 ] ERR: (ThinkException) Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `m_product_type` (`type`) VALUES (null)
+[ 2013-02-21T20:42:20+08:00 ] 127.0.0.1 /mould/index.php?s=/Admin/addProductType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8] Undefined index: text D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `m_product_type` [ RunTime:0.006151s ]
+SQL: INSERT INTO `m_product_type` (`type`) VALUES (null) [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\mould\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-02-21T21:26:25+08:00 ] ERR: [4] syntax error, unexpected 'addPic' (T_STRING), expecting variable (T_VARIABLE) D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 28 行.
+[ 2013-02-21T21:27:09+08:00 ] ERR: (ThinkException) XML标签语法错误
+[ 2013-02-21T21:27:31+08:00 ] ERR: (ThinkException) XML标签语法错误
+[ 2013-02-21T21:27:53+08:00 ] ERR: (ThinkException) XML标签语法错误
+[ 2013-02-21T22:00:49+08:00 ] ERR: [4] syntax error, unexpected end of file, expecting function (T_FUNCTION) D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 349 行.
+[ 2013-02-21T22:06:41+08:00 ] ERR: [4] syntax error, unexpected '}', expecting ',' or ';' D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 56 行.
+[ 2013-02-21T22:16:29+08:00 ] ERR: [4] syntax error, unexpected 'name' (T_STRING), expecting ',' or ';' D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 56 行.
+[ 2013-02-21T23:02:51+08:00 ] ERR: (ThinkException) 模板不存在[D:/wamp/www/mould/Tpl/Admin/addProduct.html]
+[ 2013-02-21T23:05:08+08:00 ] ERR: [4] syntax error, unexpected '}', expecting ',' or ';' D:\wamp\www\mould\Lib\Action\AdminAction.class.php 第 67 行.
+[ 2013-02-21T23:13:46+08:00 ] ERR: (ThinkException) Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `m_product` (`coverPic`,`coverText`,`content`,`type`,`date`) VALUES ('512639aad33cd.jpg','第三方',null,'好的','2013-02-21')
+[ 2013-02-21T23:21:28+08:00 ] ERR: (ThinkException) Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `m_product` (`coverPic`,`coverText`,`content`,`type`,`date`) VALUES ('51263b7807c6c.jpg','打发第三方',null,'好的','2013-02-21')
+[ 2013-02-21T23:22:01+08:00 ] ERR: (ThinkException) Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `m_product` (`coverPic`,`coverText`,`content`,`type`,`date`) VALUES ('51263b9902f99.jpg','佛挡杀佛',null,'好的','2013-02-21')
+[ 2013-02-21T23:41:20+08:00 ] 127.0.0.1 /mould/index.php?s=/Admin/addInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.004359s ]
+SQL: INSERT INTO `m_info` (`title`,`content`,`date`) VALUES ('','','2013-02-21') [ RunTime:0.033094s ]
+
+[ 2013-02-21T23:41:20+08:00 ] 127.0.0.1 /mould/index.php?s=/Admin/addInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.004837s ]
+SQL: INSERT INTO `m_info` (`title`,`content`,`date`) VALUES ('','','2013-02-21') [ RunTime:0.011573s ]
+

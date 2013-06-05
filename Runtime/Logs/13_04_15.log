@@ -1,0 +1,7 @@
+[ 2013-04-15T12:18:26+08:00 ] ERR: (ThinkException) Table 'team.m_device' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_device`
+[ 2013-04-15T12:19:50+08:00 ] ERR: (ThinkException) Table 'team.m_team' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_team`
+[ 2013-04-15T12:20:09+08:00 ] ERR: (ThinkException) Table 'team.m_company_contact_simple' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_contact_simple`
+[ 2013-04-15T12:25:11+08:00 ] ERR: (ThinkException) Action:getOfferList您所请求的方法不存在！

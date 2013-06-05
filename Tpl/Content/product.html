@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<load href="./Common/lib/bootstrap.css" />
+	<load href="./Common/css/global.css" />
+	<load href="./Common/css/Public/header.css" />
+	<load href="./Common/css/Public/footer.css" />
+	<load href="./Common/css/Content/content.css" />
+</head>
+<body class="container" id="main">
+	<include file="./Tpl/Public/header.html" />
+	<div class="help-block">
+		<div id="content">
+			<span><img src="./Common/images/icon.jpg" alt="icon" />详细内容 <span>DETAILS</span></span>
+			<div id="article">
+			<span>{$page['coverText']}</span>
+			<div class="help-block spec"><span>发布日期: {$page['date']}</span><span>浏览次数: {$page['count']}</span><span>所属类别: {$page['type']}</span></div>
+			<div style="overflow: hidden;">
+			{$page['content']}
+			</div>
+			</div>
+			<div id="bottom">
+				<a href="javascript:history.go(-1);">【返回上一页】</a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<include file="./Tpl/Public/footer.html" />
+</body>
+</html>

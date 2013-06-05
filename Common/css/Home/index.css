@@ -1,0 +1,11 @@
+#siderbar{margin-left:0;color:#444242;font-size:12px}
+#contact,#info{padding-bottom:20px}
+#info div,#contact div{padding:10px}
+#info>span,#contact>span{display:block;padding:5px 0 0 15px;height:24px;border-top-right-radius:8px;border-top-left-radius:8px;background-color:#0c5196;color:white;font-weight:bold;font-size:14px}
+#info>span img,#contact>span img{margin-right:5px;vertical-align:text-top}
+#content>span{display:block;padding:4px;border-bottom:1px solid gray;color:#11519b;font-weight:bold}
+#content>span span{margin-left:5px;font-size:8pt}
+#content>span img{margin-right:4px;vertical-align:text-top}
+#info div span,#contact div span{display:inline-block;margin:4px 5px 0 0}
+#content ul li{margin:5px 0 0 0}
+#content ul li span{margin-right:15px}

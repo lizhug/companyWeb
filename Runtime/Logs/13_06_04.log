@@ -1,0 +1,236 @@
+[ 2013-06-04T23:05:59+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002500s ]
+SQL: DELETE FROM `m_info` WHERE id = '30' [ RunTime:0.168009s ]
+
+[ 2013-06-04T23:06:01+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002446s ]
+SQL: DELETE FROM `m_info` WHERE id = '32' [ RunTime:0.024738s ]
+
+[ 2013-06-04T23:06:04+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002668s ]
+SQL: DELETE FROM `m_info` WHERE id = '33' [ RunTime:0.018322s ]
+
+[ 2013-06-04T23:06:07+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002432s ]
+SQL: DELETE FROM `m_info` WHERE id = '34' [ RunTime:0.015935s ]
+
+[ 2013-06-04T23:06:10+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002545s ]
+SQL: DELETE FROM `m_info` WHERE id = '35' [ RunTime:0.012459s ]
+
+[ 2013-06-04T23:10:34+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntrSimple/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `m_team_intr_simple` [ RunTime:0.002086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_team_intr_simple` LIMIT 1   [ RunTime:0.000437s ]
+SQL: UPDATE `m_team_intr_simple` SET `content`='<p>团队名称：数据库小组<br></p><p>成立时间：2013-03-01</p><p>成员人数：6人</p><p>团队兴趣：数据库、Web<br></p>' WHERE id = 1 [ RunTime:0.017923s ]
+
+[ 2013-06-04T23:14:49+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-04T23:14:49+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.150009s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-04T23:14:52+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-04T23:14:52+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.001885s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-04T23:15:06+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-04T23:15:06+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.001940s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-04T23:15:42+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/addInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002113s ]
+SQL: INSERT INTO `m_info` (`title`,`content`,`date`) VALUES ('数据库小组','<p>我们是数据库第8小组，这是我们的作品。<br></p>','2013-06-04') [ RunTime:0.095394s ]
+
+[ 2013-06-04T23:17:05+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteProductType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `m_product_type` [ RunTime:0.002083s ]
+SQL: DELETE FROM `m_product_type` WHERE id = '5' [ RunTime:0.047224s ]
+
+[ 2013-06-04T23:17:08+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteProductType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `m_product_type` [ RunTime:0.001974s ]
+SQL: DELETE FROM `m_product_type` WHERE id = '6' [ RunTime:0.031590s ]
+
+[ 2013-06-04T23:17:20+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteProduct/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `m_product` [ RunTime:0.002238s ]
+SQL: DELETE FROM `m_product` WHERE id = '13' [ RunTime:0.029884s ]
+
+[ 2013-06-04T23:17:23+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteProduct/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `m_product` [ RunTime:0.002153s ]
+SQL: DELETE FROM `m_product` WHERE id = '14' [ RunTime:0.016710s ]
+
+[ 2013-06-04T23:17:33+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteDeviceType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `m_member_type` [ RunTime:0.003163s ]
+SQL: DELETE FROM `m_member_type` WHERE id = '4' [ RunTime:0.003001s ]
+
+[ 2013-06-04T23:17:35+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteDeviceType/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `m_member_type` [ RunTime:0.002433s ]
+SQL: DELETE FROM `m_member_type` WHERE id = '5' [ RunTime:0.002178s ]
+
+[ 2013-06-04T23:17:47+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteDevice/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `m_member` [ RunTime:0.002229s ]
+SQL: DELETE FROM `m_member` WHERE id = '2' [ RunTime:0.002170s ]
+
+[ 2013-06-04T23:17:49+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteDevice/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `m_member` [ RunTime:0.012656s ]
+SQL: DELETE FROM `m_member` WHERE id = '3' [ RunTime:0.002083s ]
+
+[ 2013-06-04T23:17:57+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInvite/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `m_person` [ RunTime:0.002331s ]
+SQL: DELETE FROM `m_person` WHERE id = '2' [ RunTime:0.075612s ]
+
+[ 2013-06-04T23:18:24+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002668s ]
+SQL: DELETE FROM `m_info` WHERE id = '36' [ RunTime:0.003061s ]
+
+[ 2013-06-04T23:18:25+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002488s ]
+SQL: DELETE FROM `m_info` WHERE id = '37' [ RunTime:0.002369s ]
+
+[ 2013-06-04T23:18:27+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.003252s ]
+SQL: DELETE FROM `m_info` WHERE id = '38' [ RunTime:0.002411s ]
+
+[ 2013-06-04T23:18:29+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/deleteInfo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `m_info` [ RunTime:0.002181s ]
+SQL: DELETE FROM `m_info` WHERE id = '39' [ RunTime:0.019680s ]
+
+[ 2013-06-04T23:19:02+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-04T23:19:02+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.001768s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2013-06-04T23:24:46+08:00 ] ERR: (ThinkException) Table 'team.m_company_intr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_company_intr`
+[ 2013-06-04T23:24:46+08:00 ] 172.18.156.51 /group-project/index.php?s=/Admin/setCompanyIntr/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `m_company_intr` [ RunTime:0.002109s ]
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class AdminAction could not be converted to string D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\group-project\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+

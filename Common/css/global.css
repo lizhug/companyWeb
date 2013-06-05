@@ -1,0 +1,40 @@
+body {
+	padding: 5px;
+	margin-top: 20px;
+}
+html {
+	background-image: url("../images/bg.jpg");
+}
+#main {
+	background-color: white;
+}
+#wrap {
+	color: rgb(242, 118, 4);
+	border-top: 3px solid rgb(242, 118, 4);
+	border-bottom: .5px solid rgb(240, 240, 240);
+	margin-bottom: 2px;
+	padding: 8px 0 5px 5px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+.help-block{
+	display: block;
+}
+.clear {
+	clear: both;
+}
+.text-center {
+	text-align: center;
+}
+.flip {
+	margin-top: 20px !important;
+	padding-top: 10px;
+	font-size: 9pt;
+}
+.flip span {
+	margin: 0 10px;
+	cursor: pointer;
+}
+#content a {
+	cursor: pointer;
+}

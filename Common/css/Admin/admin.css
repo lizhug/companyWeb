@@ -1,0 +1,75 @@
+body {
+	background-image: url("../../images/bg.jpg");
+}
+#header {
+	display: block;
+	height: 80px;
+	width: 100%;
+	background-color: #0C5196;
+}
+#header div {
+	margin-top: 20px;
+	margin-right: 100px;
+}
+#header div span {
+	display: inline-block;
+	color: white;
+	padding-right: 30px;
+	font-weight: bold;
+}
+
+#content {
+	display: block;
+	min-height: 500px;
+}
+#t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9  {
+	text-align: center;
+}
+
+#content .btn{
+	margin-top: 20px;
+	margin-right: 50px;
+}
+.lead {
+	display: block;
+}
+#cover {
+	text-align: center;
+}
+#cover  .control-group{
+	width: 300px;
+	display: block;
+}
+
+#t11, #t12, #t41, #t42, #t43, #t51, #t52, #t53, #t61, #t62, #t71, #t72 {
+	padding-left: 20px;
+	font-size: 8pt;
+}
+#t11 a, #t12 a, #t41 a, #t42 a,
+#t43 a, #t51 a, #t52 a, #t53 a,
+#t61 a, #t62 a, #t71 a, #t72 a {
+	color: gray;
+	font-weight: bold;
+}
+.lead {
+	border-bottom: 1px solid gray;
+	padding: auto 20px !important;
+	text-align: center;
+}
+
+#footer {
+	height: 90px;
+	display: block;
+	width: 100%;
+	background-color: #0C5196;
+}
+#form {
+	margin-top: 140px;
+	margin-left: 150px;
+}
+.displayNone {
+	display: none;
+}
+tr {
+    background-color: #F5F5F4;
+}
